@@ -27,7 +27,7 @@
       "Check the status of my lights.",
       "Run a SwitchBot scene safely."
     ],
-    "brandColor": "#E7462E",
+    "brandColor": "#E0393A",
     "composerIcon": "./assets/switchbot-icon.svg",
     "logo": "./assets/app-icon.png",
     "screenshots": []

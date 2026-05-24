@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <circle cx="32" cy="32" r="32" fill="#E7462E"/>
-  <text x="32" y="32" font-family="Arial, sans-serif" font-size="22" font-weight="bold"
-        fill="white" text-anchor="middle" dominant-baseline="central">SB</text>
+  <rect width="64" height="64" rx="14" fill="#E0393A"/>
+  <path d="M 42 20 C 42 13, 22 13, 22 21 C 22 31, 42 33, 42 43 C 42 51, 22 51, 22 44"
+        stroke="white" stroke-width="10" fill="none" stroke-linecap="round"/>
 </svg>
