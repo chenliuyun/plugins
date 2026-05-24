@@ -1251,6 +1251,18 @@
       "category": "Productivity"
     },
     {
+      "name": "switchbot",
+      "source": {
+        "source": "local",
+        "path": "./plugins/switchbot"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "taxdown",
       "source": {
         "source": "local",

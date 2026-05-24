@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "switchbot": {
+      "command": "npx",
+      "args": ["-y", "@switchbot/openapi-cli@latest", "mcp", "serve", "--tools", "all"],
+      "description": "SwitchBot smart-home MCP server (24 tools, via CLI)"
+    }
+  }
+}

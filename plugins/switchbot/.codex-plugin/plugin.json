@@ -1,0 +1,35 @@
+{
+  "name": "switchbot",
+  "version": "0.1.0",
+  "description": "Control SwitchBot smart-home devices and scenes from Codex via the SwitchBot CLI and MCP server.",
+  "homepage": "https://github.com/OpenWonderLabs/switchbot-openapi-cli/tree/main/packages/codex-plugin",
+  "repository": "https://github.com/OpenWonderLabs/switchbot-openapi-cli",
+  "license": "MIT",
+  "keywords": ["switchbot", "smart-home", "iot", "home-automation", "mcp", "codex"],
+  "author": {
+    "name": "SwitchBot",
+    "url": "https://www.switch-bot.com/"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "SwitchBot",
+    "shortDescription": "Control SwitchBot devices and scenes from Codex.",
+    "longDescription": "Use the SwitchBot OpenAPI CLI through a Codex skill and MCP server to inspect devices, run scenes, control smart-home hardware, and respect policy-based safety gates.",
+    "developerName": "SwitchBot",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://github.com/OpenWonderLabs/switchbot-openapi-cli",
+    "privacyPolicyURL": "https://github.com/OpenWonderLabs/switchbot-openapi-cli/blob/main/LICENSE",
+    "termsOfServiceURL": "https://github.com/OpenWonderLabs/switchbot-openapi-cli/blob/main/LICENSE",
+    "defaultPrompt": [
+      "List my SwitchBot devices.",
+      "Check the status of my lights.",
+      "Run a SwitchBot scene safely."
+    ],
+    "brandColor": "#E7462E",
+    "composerIcon": "./assets/switchbot-icon.svg",
+    "logo": "./assets/app-icon.png",
+    "screenshots": []
+  }
+}
